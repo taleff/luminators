@@ -1,0 +1,20 @@
+Nickel Weight: 1.0651g
+
+Vial: 13.1320 g
+Diamine: 3.40 mL
+Vial: 16.2576 g
+Cap: 1.7712 g
+
+Serial Dilution: 0.2585 g
+40.05 mL
+40.02 mL
+41.00 mL
+40.00 mL
+40.05 mL
+
+0.141
+0.111
+0.090
+0.076
+0.067
+0.042
