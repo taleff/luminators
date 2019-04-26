@@ -24,6 +24,7 @@ class EnergyLevels:
         self.di = di
         self.f = f
         self.names = names
+        self.edited = False
 
     def convert(self):
         """
@@ -31,6 +32,10 @@ class EnergyLevels:
 
         :return: Returns a tuple containing the converted values.
         """
+        if self.edited == True:
+            return (self.s0, self.s1, self.t1, self.di, self.f)
+
+        self.edited = True
 
         converted_s0 = self.s0
         converted_s1 = 1 / (self.s1 / (10**7))
